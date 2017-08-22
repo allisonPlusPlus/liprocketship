@@ -20,4 +20,10 @@ body {
 
 .main {
   background:  rgba(255, 255, 255, 0.5);
+  padding-bottom: 100px;
+  margin-top: 50px;
+}
+
+h1, h2 {
+  font-family: 'Indie Flower', cursive;
 }
