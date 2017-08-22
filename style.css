@@ -3,6 +3,7 @@
     padding: 0;
     margin: 0;
     font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
 }
 
 html {
@@ -20,8 +21,8 @@ body {
 
 
 .main {
+  width: 50%;
   background: rgba(255, 255, 255, 0.9);
-  padding-bottom: 50px;
   margin-top: 75px;
   -webkit-box-shadow: 10px 10px 51px 2px rgba(0,0,0,0.75);
 -moz-box-shadow: 10px 10px 51px 2px rgba(0,0,0,0.75);
@@ -40,7 +41,6 @@ h1, h2 {
 
  .btn-xlarge {
      padding: 18px 28px;
-     margin-top: 25px;
      margin-bottom: 25px;
      font-size: 22px;
      line-height: normal;
